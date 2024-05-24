@@ -1,0 +1,64 @@
+.main {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    min-width: 300px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: .7rem;
+}
+
+form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+h2::before{
+    content: "";
+    background-color: #ccc;
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    bottom: -10px;
+}
+
+form label {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: -4px;
+}
+
+form input {
+    padding: .3rem .7rem;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+}
+
+form input:focus{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+form input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .8;
+}
+
+form button{
+    border: none;
+    padding: .3rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
