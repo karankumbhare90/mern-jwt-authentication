@@ -1,4 +1,0 @@
-Username : karankumbhare90
-Password : ZlnLKjD1hAEMGKvK
-
-mongodb+srv://karankumbhare90:ZlnLKjD1hAEMGKvK@cluster0.cdzkkuj.mongodb.net/
